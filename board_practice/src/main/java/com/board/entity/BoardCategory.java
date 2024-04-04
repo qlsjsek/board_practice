@@ -28,7 +28,7 @@ public class BoardCategory {
 	private Long categoryId;
 	private String categoryName;
 	
-	public static BoardCategory toDto(BoardCategoryDto dto) {
+	public static BoardCategory toEntity(BoardCategoryDto dto) {
 		BoardCategory boardCategory = BoardCategory.builder()
 													.categoryId(dto.getCategoryId())
 													.categoryName(dto.getCategoryName())
