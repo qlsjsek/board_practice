@@ -1,5 +1,9 @@
 package com.board.service;
 
-public interface BoardService {
+import java.util.List;
 
+import com.board.entity.BoardCategory;
+
+public interface BoardService {
+	List<BoardCategory> findCategoriesAll();
 }
